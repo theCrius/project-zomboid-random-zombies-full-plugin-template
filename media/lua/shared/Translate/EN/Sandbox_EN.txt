@@ -1,0 +1,59 @@
+Sandbox_EN = {
+  Sandbox_RandomZombiesFullExamplePlugin_main_page = "Random Zombies DnN - Plugin - Main",
+  Sandbox_RandomZombiesFullExamplePlugin_preset_page = "Random Zombies DnN - Plugin - Preset",
+
+  Sandbox_RandomZombiesFullExamplePlugin_enable_examplemode = "Enable Example Plugin",
+  Sandbox_RandomZombiesFullExamplePlugin_enable_examplemode_tooltip = "Enable to allow 'Random Zombies - Day and Night' to load this plugin.",
+  Sandbox_RandomZombiesFullExamplePlugin_enable_examplemode_values_option1 = "Disabled"
+  Sandbox_RandomZombiesFullExamplePlugin_enable_examplemode_values_option2 = "Enabled",
+
+  Sandbox_RandomZombiesFullExamplePlugin_threshold = "Plugin Event Threshold",
+  Sandbox_RandomZombiesFullExamplePlugin_threshold_tooltip = "This option allow you to decide on which intensity threshold the preset of this plugin should be applied.",
+  Sandbox_RandomZombiesFullExamplePlugin_threshold_values_option1 = "Any"
+  Sandbox_RandomZombiesFullExamplePlugin_threshold_values_option2 = "Light (30% or more)",
+  Sandbox_RandomZombiesFullExamplePlugin_threshold_values_option3 = "Average (50% or more)",
+  Sandbox_RandomZombiesFullExamplePlugin_threshold_values_option4 = "Heavy (70% or more)",
+
+
+  
+  Sandbox_RandomZombiesFullExamplePlugin_Summer_Event_Start = "Summer Night Start",
+  Sandbox_RandomZombiesFullExamplePlugin_Summer_Event_Start_tooltip = "At what time the event start in Summer. ",
+  Sandbox_RandomZombiesFullExamplePlugin_Summer_Event_End = "Summer Night End",
+  Sandbox_RandomZombiesFullExamplePlugin_Summer_Event_End_tooltip = "At what time the event end in Summer. ",
+
+  Sandbox_RandomZombiesFullExamplePlugin_Autumn_Event_Start = "Autumn Night Start",
+  Sandbox_RandomZombiesFullExamplePlugin_Autumn_Event_Start_tooltip = "At what time the event start in Autumn. ",
+  Sandbox_RandomZombiesFullExamplePlugin_Autumn_Event_End = "Autumn Night End",
+  Sandbox_RandomZombiesFullExamplePlugin_Autumn_Event_End_tooltip = "At what time the event end in Autumn. ",
+
+  Sandbox_RandomZombiesFullExamplePlugin_Winter_Event_Start = "Winter Night Start",
+  Sandbox_RandomZombiesFullExamplePlugin_Winter_Event_Start_tooltip = "At what time the event start in Winter. ",
+  Sandbox_RandomZombiesFullExamplePlugin_Winter_Event_End = "Winter Night End",
+  Sandbox_RandomZombiesFullExamplePlugin_Winter_Event_End_tooltip = "At what time the event end in Winter. ",
+
+  Sandbox_RandomZombiesFullExamplePlugin_Spring_Event_Start = "Spring Night Start",
+  Sandbox_RandomZombiesFullExamplePlugin_Spring_Event_Start_tooltip = "At what time the event start in Spring. ",
+  Sandbox_RandomZombiesFullExamplePlugin_Spring_Event_End = "Spring Night End",
+  Sandbox_RandomZombiesFullExamplePlugin_Spring_Event_End_tooltip = "At what time the event end in Spring. ",
+
+
+
+  Sandbox_RandomZombiesFullExamplePlugin_Crawler_ExampleMode = "ExampleMode Crawlers Percent",
+  Sandbox_RandomZombiesFullExamplePlugin_Crawler_ExampleMode_tooltip = "Percentage of Crawlers present in the world during the example mode. Crawler, Shambler, FastShambler and Sprinter must add up to 100.",
+  Sandbox_RandomZombiesFullExamplePlugin_Shambler_ExampleMode = "ExampleMode Shamblers Percent",
+  Sandbox_RandomZombiesFullExamplePlugin_Shambler_ExampleMode_tooltip = "Percentage of Shamblers present in the world during the example mode. Percentage of Crawler, Shambler, FastShambler and Sprinter must add up to 100.",
+  Sandbox_RandomZombiesFullExamplePlugin_FastShambler_ExampleMode = "ExampleMode Fast Shamblers Percent",
+  Sandbox_RandomZombiesFullExamplePlugin_FastShambler_ExampleMode_tooltip = "Percentage of Fast Shamblers present in the world during the example mode. Crawler, Shambler, FastShambler and Sprinter must add up to 100.",
+  Sandbox_RandomZombiesFullExamplePlugin_Sprinter_ExampleMode = "ExampleMode Sprinters Percent",
+  Sandbox_RandomZombiesFullExamplePlugin_Sprinter_ExampleMode_tooltip = "Percentage of Sprinters present in the world during the example mode. Crawler, Shambler, FastShambler and Sprinter must add up to 100.",
+
+  Sandbox_RandomZombiesFullExamplePlugin_Fragile_ExampleMode = "ExampleMode Fragile Percent",
+  Sandbox_RandomZombiesFullExamplePlugin_Fragile_ExampleMode_tooltip = "Percentage of Fragile zombies present in the world during the example mode. Fragile, Normal and Tough must add up to 100.",
+  Sandbox_RandomZombiesFullExamplePlugin_Normal_ExampleMode = "ExampleMode Average Percent",
+  Sandbox_RandomZombiesFullExamplePlugin_Normal_ExampleMode_tooltip = "Percentage of zombies with normal toughness present in the world during the example mode. Fragile, Normal and Tough must add up to 100.",
+  Sandbox_RandomZombiesFullExamplePlugin_Tough_ExampleMode = "ExampleMode Tough Percent",
+  Sandbox_RandomZombiesFullExamplePlugin_Tough_ExampleMode_tooltip = "Percentage of Tough zombies present in the world during the example mode. Fragile, Normal and Tough must add up to 100.",
+
+  Sandbox_RandomZombiesFullExamplePlugin_Smart_ExampleMode = "ExampleMode Smart Percent"
+  Sandbox_RandomZombiesFullExamplePlugin_Smart_ExampleMode_tooltip = "Percentage of Smart zombies present in the world during the example mode. These zombies can open doors and have hightened senses.",
+}

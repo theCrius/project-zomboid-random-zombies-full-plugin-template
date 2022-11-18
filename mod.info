@@ -1,0 +1,5 @@
+name=Random Zombies - DnN Plugin Template
+poster=poster.png
+id=RandomZombiesFullPluginTemplate
+description=Template to show how to implement a plugin for Random Zombies - Day and Night
+url=https://github.com/theCrius/project-zomboid-random-zombies-full-plugin-template

@@ -1,0 +1,21 @@
+{
+    "Lua.diagnostics.globals": [
+        "SandboxVars",
+        "Events",
+        "GameTime",
+        "getGameTime",
+        "getTimestampMs",
+        "getFileWriter",
+        "getCell",
+        "DebugContextMenu",
+        "getPlayer",
+        "getNumClassFields",
+        "getClassField",
+        "isClient",
+        "getClassFieldVal",
+        "getSandboxOptions",
+        "ZombRand",
+        "IsoZombie",
+        "getClimateManager"
+    ]
+}

@@ -1,0 +1,133 @@
+VERSION = 1,
+
+option RandomZombiesFullExamplePlugin.Enable_ExampleMode
+{
+	type = enum, numValues = 2, default = 2,
+	page = RandomZombiesFullExamplePlugin_main_page,
+	translation = RandomZombiesFullExamplePlugin_enable_examplemode,
+	valueTranslation = RandomZombiesFullExamplePlugin_enable_examplemode_values,
+}
+
+option RandomZombiesFullExamplePlugin.ExampleMode_Threshold
+{
+    type = enum, numValues = 4, default = 2,
+    page = RandomZombiesFullExamplePlugin_main_page,
+    translation = RandomZombiesFullExamplePlugin_threshold,
+    valueTranslation = RandomZombiesFullExamplePlugin_threshold_values,
+}
+
+
+
+option RandomZombiesFullExamplePlugin.Summer_Event_Start
+{
+	type = integer, min = 0, max = 23, default = 23,
+	page = RandomZombiesFullExamplePlugin_main_page,
+	translation = RandomZombiesFullExamplePlugin_Summer_Event_Start,
+}
+
+option RandomZombiesFullExamplePlugin.Summer_Event_End
+{
+	type = integer, min = 0, max = 23, default = 6,
+	page = RandomZombiesFullExamplePlugin_main_page,
+	translation = RandomZombiesFullExamplePlugin_Summer_Event_End,
+}
+
+option RandomZombiesFullExamplePlugin.Autumn_Event_Start
+{
+	type = integer, min = 0, max = 23, default = 22,
+	page = RandomZombiesFullExamplePlugin_main_page,
+	translation = RandomZombiesFullExamplePlugin_Autumn_Event_Start,
+}
+
+option RandomZombiesFullExamplePlugin.Autumn_Event_End
+{
+	type = integer, min = 0, max = 23, default = 6,
+	page = RandomZombiesFullExamplePlugin_main_page,
+	translation = RandomZombiesFullExamplePlugin_Autumn_Event_End,
+}
+
+option RandomZombiesFullExamplePlugin.Winter_Event_Start
+{
+	type = integer, min = 0, max = 23, default = 20,
+	page = RandomZombiesFullExamplePlugin_main_page,
+	translation = RandomZombiesFullExamplePlugin_Winter_Event_Start,
+}
+
+option RandomZombiesFullExamplePlugin.Winter_Event_End
+{
+	type = integer, min = 0, max = 23, default = 6,
+	page = RandomZombiesFullExamplePlugin_main_page,
+	translation = RandomZombiesFullExamplePlugin_Winter_Event_End,
+}
+
+option RandomZombiesFullExamplePlugin.Spring_Event_Start
+{
+	type = integer, min = 0, max = 23, default = 22,
+	page = RandomZombiesFullExamplePlugin_main_page,
+	translation = RandomZombiesFullExamplePlugin_Spring_Event_Start,
+}
+
+option RandomZombiesFullExamplePlugin.Spring_Event_End
+{
+	type = integer, min = 0, max = 23, default = 6,
+	page = RandomZombiesFullExamplePlugin_main_page,
+	translation = RandomZombiesFullExamplePlugin_Spring_Event_End,
+}
+
+
+
+option RandomZombiesFullExamplePlugin.Crawler_ExampleMode
+{
+	type = double, min = 0, max = 100, default = 5,
+	page = RandomZombiesFullExamplePlugin_preset_page,
+	translation = RandomZombiesFullExamplePlugin_Crawler_ExampleMode,
+}
+
+option RandomZombiesFullExamplePlugin.Shambler_ExampleMode
+{
+	type = double, min = 0, max = 100, default = 5,
+	page = RandomZombiesFullExamplePlugin_preset_page,
+	translation = RandomZombiesFullExamplePlugin_Shambler_ExampleMode,
+}
+
+option RandomZombiesFullExamplePlugin.FastShambler_ExampleMode
+{
+	type = double, min = 0, max = 100, default = 25,
+	page = RandomZombiesFullExamplePlugin_preset_page,
+	translation = RandomZombiesFullExamplePlugin_FastShambler_ExampleMode,
+}
+
+option RandomZombiesFullExamplePlugin.Sprinter_ExampleMode
+{
+	type = double, min = 0, max = 100, default = 65,
+	page = RandomZombiesFullExamplePlugin_preset_page,
+	translation = RandomZombiesFullExamplePlugin_Sprinter_ExampleMode,
+}
+
+option RandomZombiesFullExamplePlugin.Fragile_ExampleMode
+{
+	type = double, min = 0, max = 100, default = 30,
+	page = RandomZombiesFullExamplePlugin_preset_page,
+	translation = RandomZombiesFullExamplePlugin_Fragile_ExampleMode,
+}
+
+option RandomZombiesFullExamplePlugin.Normal_ExampleMode
+{
+	type = double, min = 0, max = 100, default = 50,
+	page = RandomZombiesFullExamplePlugin_preset_page,
+	translation = RandomZombiesFullExamplePlugin_Normal_ExampleMode,
+}
+
+option RandomZombiesFullExamplePlugin.Tough_ExampleMode
+{
+	type = double, min = 0, max = 100, default = 20,
+	page = RandomZombiesFullExamplePlugin_preset_page,
+	translation = RandomZombiesFullExamplePlugin_Tough_ExampleMode,
+}
+
+option RandomZombiesFullExamplePlugin.Smart_ExampleMode
+{
+	type = double, min = 0, max = 100, default = 5,
+	page = RandomZombiesFullExamplePlugin_preset_page,
+	translation = RandomZombiesFullExamplePlugin_Smart_ExampleMode,
+}
