@@ -13,8 +13,8 @@ local function buildPluginStructure()
     local pluginDataTemplate = {
         -- give a unique name to your preset, possibly with the suffix `Time`
         presetName = "exampleModeTime",
-        -- determine if this plugin is enabled or disable
-        enabled = configuration.enabled.exampleModeTime,
+        -- determine if this plugin is enabled or disable. In this example it's a select, index 1 -> disabled, index 2 -> enabled
+        enabled = configuration.enabled.exampleModeTime == 2,
         -- leave this to `nil` if you don't want to use a threshold
         threshold = configuration.enabled.exampleModeThreshold or nil,
         -- leave this to `nil` if you don't want to use a time schedule
