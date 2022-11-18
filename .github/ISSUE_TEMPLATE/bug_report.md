@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help this plugin template get better
-title: ''
+title: "[BUG]"
 labels: ''
 assignees: theCrius
 
