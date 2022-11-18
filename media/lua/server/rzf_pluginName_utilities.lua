@@ -7,45 +7,45 @@ utilities.ValidateConfiguration = function()
   end
 
   if not (
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Summer_Night_Start) == "number" and
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Summer_Night_End) == "number" and
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Autumn_Night_Start) == "number" and
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Autumn_Night_End) == "number" and
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Winter_Night_Start) == "number" and
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Winter_Night_End) == "number" and
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Spring_Night_Start) == "number" and
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Spring_Night_End) == "number"
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Summer_Event_Start) == "number" and
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Summer_Event_End) == "number" and
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Autumn_Event_Start) == "number" and
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Autumn_Event_End) == "number" and
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Winter_Event_Start) == "number" and
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Winter_Event_End) == "number" and
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Spring_Event_Start) == "number" and
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Spring_Event_End) == "number"
   )
   then
-    error("[RZF] Config value is not a number for the Season Night times")
+    error("[RZF] Config value is not a number for the Season Event times")
   end
 
   if not (
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Crawler_Special) == "number" and
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Shambler_Special) == "number" and
-    type(SandboxVars.RandomZombiesFullExamplePlugin.FastShambler_Special) == "number" and
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Sprinter_Special) == "number" and
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Fragile_Special) == "number" and
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Normal_Special) == "number" and
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Tough_Special) == "number" and
-    type(SandboxVars.RandomZombiesFullExamplePlugin.Smart_Special) == "number")
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Crawler_ExampleMode) == "number" and
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Shambler_ExampleMode) == "number" and
+    type(SandboxVars.RandomZombiesFullExamplePlugin.FastShambler_ExampleMode) == "number" and
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Sprinter_ExampleMode) == "number" and
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Fragile_ExampleMode) == "number" and
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Normal_ExampleMode) == "number" and
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Tough_ExampleMode) == "number" and
+    type(SandboxVars.RandomZombiesFullExamplePlugin.Smart_ExampleMode) == "number")
   then
-    error("[RZF] Config value is not a number for the Night Settings")
+    error("[RZF] Config value is not a number for the Event Settings")
   end
 
-  if SandboxVars.RandomZombiesFullExamplePlugin.Crawler_Special +
-    SandboxVars.RandomZombiesFullExamplePlugin.Shambler_Special +
-    SandboxVars.RandomZombiesFullExamplePlugin.FastShambler_Special +
-    SandboxVars.RandomZombiesFullExamplePlugin.Sprinter_Special
+  if SandboxVars.RandomZombiesFullExamplePlugin.Crawler_ExampleMode +
+    SandboxVars.RandomZombiesFullExamplePlugin.Shambler_ExampleMode +
+    SandboxVars.RandomZombiesFullExamplePlugin.FastShambler_ExampleMode +
+    SandboxVars.RandomZombiesFullExamplePlugin.Sprinter_ExampleMode
     ~= 100 then
-    error("[RZF] Crawler, Shambler, FastShambler and Sprinter for the Special Settings do not add up to 100")
+    error("[RZF] Crawler, Shambler, FastShambler and Sprinter for the Event Settings do not add up to 100")
   end
 
-  if SandboxVars.RandomZombiesFullExamplePlugin.Fragile_Special +
-    SandboxVars.RandomZombiesFullExamplePlugin.Normal_Special +
-    SandboxVars.RandomZombiesFullExamplePlugin.Tough_Special
+  if SandboxVars.RandomZombiesFullExamplePlugin.Fragile_ExampleMode +
+    SandboxVars.RandomZombiesFullExamplePlugin.Normal_ExampleMode +
+    SandboxVars.RandomZombiesFullExamplePlugin.Tough_ExampleMode
     ~= 100 then
-    error("[RZF] Fragile, Normal and Tough for the Special Settings do not add up to 100")
+    error("[RZF] Fragile, Normal and Tough for the Event Settings do not add up to 100")
   end
 end
 
