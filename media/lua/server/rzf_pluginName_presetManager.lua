@@ -2,7 +2,7 @@ local presetManager = {}
 
 -- This function can be anything but must return true/false
 presetManager.pluginTrigger = function(selectedThreshold)
-	-- Example: trigger is returning true when rain is happening, however, a threshold is also expected.
+	-- Example: trigger is returning true when rain, snow or fog is happening, however, a threshold is also expected.
 	-- The main mod will take care of injecting it if it's passed into the configuration for the plugin
 
 	local specialHappening = false
@@ -20,9 +20,17 @@ presetManager.pluginTrigger = function(selectedThreshold)
 		specialThreshold = 0.7
 	end
 
-	specialIntensity = ClimateManager:getRainIntensity()
-	specialHappening = ClimateManager:isRaining() and specialIntensity >= specialThreshold
+	rainIntensity = ClimateManager:getRainIntensity()
+	rainHappening = ClimateManager:isRaining() and specialIntensity >= specialThreshold
+	
+	snowIntensity = ClimateManager:getSnowIntensity()
+	snowHappening = ClimateManager:isSnowing() and specialIntensity >= specialThreshold
+	
+	fogIntensity = ClimateManager:getFogIntensity()
+	fogHappening = specialIntensity >= specialThreshold
 
+	specialHappening = rainHappening or snowHappening or fogHappening
+	
 	if (specialHappening) then
 		return true
 	else
