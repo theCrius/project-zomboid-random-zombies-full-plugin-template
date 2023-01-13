@@ -9,4 +9,4 @@ Offer a template to follow and make easy creating plugins for Random Zombies - D
 
 ## Where to download
 
-Altough it makes little sense downloading this template, you can find it on the steam workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=
+Altough it makes little sense downloading this template, you can find it on the steam workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2890233989
